@@ -113,6 +113,7 @@ footer {
     background: #EEEEEE;
     height: 62px;
     margin-top: 50px;
+    max-width: 1400px;
 }
 
 footer p {
@@ -149,4 +150,9 @@ footer p {
     color: #444444;
     text-align: justify;
     padding-bottom: 30px;
+}
+
+.recipe {
+    width: 940px;
+    margin: 20px auto;
 }
