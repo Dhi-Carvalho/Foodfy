@@ -156,3 +156,60 @@ footer p {
     width: 940px;
     margin: 20px auto;
 }
+
+.modalRecipe {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    max-width: 660px;
+    max-height: 413px;
+    margin: 25vh auto;
+    padding: 30px;
+    border-radius: 16px;
+    position: relative;
+    text-align: center;
+}
+
+.modalContent img {
+    border-radius: 15px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.modalContent h4 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.modalContent p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+.modalContent a {
+    font-size: 16px;
+    line-height: 26px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.modalRecipe.active {
+    opacity: 1;
+    visibility: visible;
+}
