@@ -12,3 +12,4 @@ Até o momento foram utilizadas as seguintes tecnologias:
 
 - **HTML5**
 - **CSS3**
+- **JavaScript**
