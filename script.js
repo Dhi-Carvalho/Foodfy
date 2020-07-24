@@ -17,4 +17,3 @@ for (let card of cards) {
 document.querySelector('.closeModal').addEventListener("click", function(){
     modalRecipe.classList.remove('active')
 })
-
