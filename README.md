@@ -34,6 +34,9 @@ Até o momento foram utilizadas as seguintes tecnologias:
 - **CSS3**
 - **JavaScript**
 - **Node.js**
+
+### 💻 <b>Dependências Utilizadas:</b>
+
 - **Express**
 - **Nunjucks**
 - **Nodemon**
