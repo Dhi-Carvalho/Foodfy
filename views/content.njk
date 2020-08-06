@@ -1,0 +1,48 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Foodfy - Receitas</title>
+{% endblock %}
+
+{% block content %}
+    <section class="recipe">
+        <div class="cards">
+            {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                <div class="image">
+                    <img src="{{item.image}}" alt="{{item.id}}">
+                </div>
+                <div class="content">
+                    <h4 class="nome">{{item.name}}</h4>
+                    <p class="autor">por {{item.author}}</p>
+                </div>
+            </div>
+            {% endfor %}
+            {% for item in items %}
+            <div class="card" id="{{item.id}}">
+                <div class="image">
+                    <img src="{{item.image}}" alt="{{item.id}}">
+                </div>
+                <div class="content">
+                    <h4 class="nome">{{item.name}}</h4>
+                    <p class="autor">por {{item.author}}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <div class="modalRecipe" id="modalRecipe">
+        <div class="modal">
+            <div class="modalContent">
+                <img src="" alt="">
+                <h4 class="nome"></h4>
+                <p class= "autor"></p>
+                <a class="closeModal">Fechar modal</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+{% endblock %}
