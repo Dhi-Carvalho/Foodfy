@@ -9,10 +9,14 @@
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Dhi-Carvalho/Foodfy">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Dhi-Carvalho/Foodfy">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Dhi-Carvalho/Foodfy">
+</p>
+
+<p align="center">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Dhi-Carvalho/Foodfy">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Dhi-Carvalho/Foodfy">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/Dhi-Carvalho/Foodfy">
 </p>
+
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/Dhi-Carvalho/Foodfy">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Dhi-Carvalho/Foodfy">
