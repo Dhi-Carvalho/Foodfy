@@ -41,3 +41,7 @@ Até o momento foram utilizadas as seguintes tecnologias:
 - **Nunjucks**
 - **Nodemon**
 
+###  📝 <b>Licença:</b>
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Dhi-Carvalho/Foodfy/blob/master/LICENSE.md) para mais detalhes.
+
