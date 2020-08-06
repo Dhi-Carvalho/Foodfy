@@ -6,10 +6,12 @@ const recipes = require("./data")
 
 server.use(express.static('public'))
 
-server.set("view engine", "html")
+server.set("view engine", "njk")
 
 nunjucks.configure("views", {
-    express: server
+    express: server,
+    autoescape: false,
+    noCache: true
 })
 
 server.get("/", function (req, res) {
