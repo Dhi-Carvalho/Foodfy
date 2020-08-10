@@ -1,7 +1,7 @@
-<h2 align="center">FOODFY</h2>
+<h2 align="center">Hello Pizza</h2>
 
 <h1 align="center">
-    <img src="https://images2.imgbox.com/a2/e1/atsdHP95_o.png" >
+    <img src="" >
 </h1>
 
 <p align="center">
@@ -24,24 +24,15 @@
 </p>
 
 ### 📑 <b>Sobre:</b>
-<p align="justify">Este projeto se trata de um site completo para uma empresa de receitas chamada <b>Foodfy</b>.</p>   
-<p align="justify">O mesmo é parte integrante dos desafios da <b>Bootcamp Launchbase</b> da <b>Rocketseat</b> que aborda de maneira prática os conceitos para se dominar as stacks necessárias para se tornar um desenvolver Full Stack.</p>
+<p align="justify">Este projeto será desenvolvido com os conhecimentos adquiridos durante o curso <b>HTML Básico</b> da <b>DevMedia</b>.</p>   
+<p align="justify">Esse curso servirá para que possa desenvolver ainda mais os conhecimentos em HTML!!</p>
 
 ### 💻 <b>Tecnologias Utilizadas:</b>
 Até o momento foram utilizadas as seguintes tecnologias:
 
 - **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Node.js**
-
-### 💻 <b>Dependências Utilizadas:</b>
-
-- **Express**
-- **Nunjucks**
-- **Nodemon**
 
 ###  📝 <b>Licença:</b>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Dhi-Carvalho/Foodfy/blob/master/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE]() para mais detalhes.
 
