@@ -2,30 +2,42 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 
 const server = express()
-const recipes = require("./data")
+const recipes = require("./src/database/data")
 
-server.use(express.static('public'))
+server.use(express.static("public"))
 
 server.set("view engine", "njk")
 
-nunjucks.configure("views", {
+nunjucks.configure("src/views", {
     express: server,
-    autoescape: false,
     noCache: true
 })
 
-server.get("/", function (req, res) {
+server.get("/", function(req, res) {
     return res.render("index", {items: recipes})
 })
 
-server.get("/about", function (req, res) {
+server.get("/about", function(req, res) {
     return res.render("about")
 })
 
-server.get("/content", function (req, res) {
-    return res.render("content", {items: recipes})
+server.get("/cookbook", function(req, res) {
+    return res.render("cookbook", {items: recipes})
 })
 
-server.listen(5000, function() {
-    console.log("server is runing")
+server.get("/recipes/:index", function(req,res) {
+    const recipeId = req.params.index
+
+    if (!recipes[recipeId]) {
+        return res.render('not-found')
+    }
+    return res.render('recipes', { item: recipes[recipeId]})
+})
+
+server.use(function(req,res){
+    return res.status(404).render('not-found')
+  })
+
+server.listen(5000, function(){
+    console.log("server is running")
 })
