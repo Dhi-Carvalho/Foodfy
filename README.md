@@ -1,7 +1,9 @@
-<h2 align="center">Hello Pizza</h2>
+<h1 align="center">
+    <img src="https://images2.imgbox.com/16/39/mZ2xWoAP_o.jpg"> 
+</h1>
 
 <h1 align="center">
-    <img src="" >
+    <img src="https://images2.imgbox.com/52/8c/fPcXxXZp_o.png" >
 </h1>
 
 <p align="center">
@@ -23,14 +25,19 @@
 <img alt="Snyk Vulnerabilities for GitHub Repo" src="https://img.shields.io/snyk/vulnerabilities/github/Dhi-Carvalho/Foodfy">
 </p>
 
-### 📑 <b>Sobre:</b>
-<p align="justify">Este projeto será desenvolvido com os conhecimentos adquiridos durante o curso <b>HTML Básico</b> da <b>DevMedia</b>.</p>   
-<p align="justify">Esse curso servirá para que possa desenvolver ainda mais os conhecimentos em HTML!!</p>
+### 📑 Sobre:
+Este projeto se trata de um site completo para uma empresa de receitas chamada **Foodfy**.   
+O mesmo é parte integrante dos desafios da **Launchbase** que aborda os conteúdos estudados até a Fase 02 do Bootcamp.
 
-### 💻 <b>Tecnologias Utilizadas:</b>
+### 💻 Tecnologias Utilizadas:
 Até o momento foram utilizadas as seguintes tecnologias:
 
 - **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Node.js**
+- **Express**
+- **Nunjucks**
 
 ###  📝 <b>Licença:</b>
 
