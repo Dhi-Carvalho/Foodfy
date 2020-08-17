@@ -41,5 +41,5 @@ Até o momento foram utilizadas as seguintes tecnologias:
 
 ###  📝 <b>Licença:</b>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE]() para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Dhi-Carvalho/Foodfy/blob/master/LICENSE) para mais detalhes.
 
