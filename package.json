@@ -1,8 +1,8 @@
 {
-  "name": "foodfy",
+  "name": "foodfy2",
   "version": "1.0.0",
-  "description": "<h2 align=\"center\">FOODFY</h2>\r <h1 align=\"center\">\r     <img src=\"https://images2.imgbox.com/a2/e1/atsdHP95_o.png\" >\r </h1>",
-  "main": "script.js",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.2"
@@ -11,18 +11,9 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dhi-Carvalho/Foodfy.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dhi-Carvalho/Foodfy/issues"
-  },
-  "homepage": "https://github.com/Dhi-Carvalho/Foodfy#readme"
+  "license": "ISC"
 }
