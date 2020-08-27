@@ -1,0 +1,85 @@
+.title-recipe {
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image img {
+    border-radius: 0.94rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+.content {
+    text-align: center;
+}
+.content h1 {
+    font-size: 2.25rem;
+    line-height: 2.63rem;
+    color: #111111;
+    margin-bottom: 0.25rem;
+}
+
+.content h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #777777;
+}
+
+.content-recipe {
+    grid: flex;
+    justify-content: center;
+    margin-top: 3.13rem;
+    margin-bottom: 2.44rem;
+}
+
+.subtitles {
+    display:flex;
+    align-items: flex-end;
+}
+
+.subtitles h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.button {
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 0.88rem;
+    color: #999999;
+    margin-right: 0.5rem;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transition: 600ms;
+}
+
+.content-text ul,
+.content-text ol {
+    font-size: 1.13rem;
+    line-height: 1.75rem;
+    text-align: justify;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.content-text p {
+    font-size: 1.13rem;
+    line-height: 1.75rem;
+    text-align: justify;
+    margin-top: 1.25rem;
+}
+
+.preparation-mode {
+    margin-bottom: 2.44rem;
+}
+
+.show-content {
+    display: none;
+    margin-bottom: 2.44rem;
+}

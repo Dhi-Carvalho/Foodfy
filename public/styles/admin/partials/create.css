@@ -1,0 +1,70 @@
+main {
+    margin: auto 14.45rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.13rem;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+button[type="submit"] {
+    padding: 0.5rem 1.25rem;
+    background-color: #6558C3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    outline: none;
+    cursor: pointer;
+}
+
+button[type="button"] {
+    margin-top: 0.9rem;
+    background-color: white;
+    color: #6558C3;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+    outline: none;
+    cursor: pointer;
+}
+
+.item {
+    margin-top: 1.88rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.19rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 0.65rem;
+    background-color: #FFFFFF;
+    border: 0.06rem solid #DDDDDD;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 3rem;
+    font-family: Roboto, sans-serif;
+    outline: none;
+}
+
+textarea {
+    height: 16rem;
+    resize: none;
+    font-size: 1rem;
+}

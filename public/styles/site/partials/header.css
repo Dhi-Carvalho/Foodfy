@@ -1,0 +1,47 @@
+.page-header {
+    display: flex;
+}
+
+.page-header .top-bar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-content: left;
+    padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container .menu {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.page-header .top-bar-container a {
+    font-size: 1.0rem;
+    line-height: 1.19rem;
+    color: #111111;
+    text-decoration: none;
+    margin-right: 1.88rem;
+}
+
+.page-header .top-bar-container a:hover {
+    color: #000000;
+    font-weight: bold;
+    transition: color 150ms;
+}
+
+.page-header .top-bar-container > img {
+    height: 3.0rem;
+}
+
+@media (max-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+
+    .page-header .top-bar-container > img {
+        height: 2.0rem;
+    }
+}
