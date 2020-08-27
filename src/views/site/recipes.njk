@@ -1,0 +1,64 @@
+{% extends "site/layout.njk" %}
+    
+    {% block head %}
+        <link rel="stylesheet" href="/styles/site/partials/recipes-page.css">
+        <script src="/scripts/button.js" defer></script>
+
+        <title>Foodfy | Receitas</title>
+    {% endblock %}
+    
+    {% block main %}
+        <main>
+            <section class="recipe">
+                <div class="title-recipe">
+                        <div class="card" id="{{item.id}}">
+                            <div class="image">
+                                <img src="{{item.image}}" alt="{{item.title}}">
+                            </div>
+                            <div class="content">
+                                <h4 class="name">{{item.title}}</h4>
+                                <p class="author">{{item.author}}</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="content-recipe content-list">
+                    <div class="subtitles">
+                        <h3>Ingredientes</h3>
+                        <a class="button">ESCONDER</a>
+                    </div>
+                    <div class="content-text">
+                        <ul>
+                        {% for ingredient in item.ingredients %}
+                            <li>{{ingredient}}</li>
+                        {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                    <div class="preparation-mode content-list">
+                        <div class="subtitles">
+                            <h3>Modo de preparo</h3>
+                            <a class="button">ESCONDER</a>
+                        </div>
+                        <div class="content-text">
+                            <ol class="preparation-steps" type="1">
+                                {% for steps in item.preparation %}
+                                <li>{{steps}}</li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="additional-information content-list">
+                        {% if item.information %}
+                            <div class="subtitles">
+                                <h3>Informações adicionais</h3>
+                                <a class="button">ESCONDER</a>
+                            </div>
+                            <div class="content-text">
+                                <p>{{item.information}}</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+        </main>
+    {% endblock %}

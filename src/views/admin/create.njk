@@ -1,0 +1,56 @@
+{% extends "admin/layout.njk" %}
+
+    {% block head %}
+        <link rel="stylesheet" href="/styles/admin/partials/create.css">
+        <script src="/scripts/admin/addField.js" defer></script>
+
+        <title>Foodfy | Craindo Receita</title>
+    {% endblock %}
+
+    {% block main %}
+        <main>
+            <section class="title">
+                <h1>Criando receita</h1>
+                <button type="submit">Salvar receita</button>
+            </section>
+            <section class="createRecipe">
+                <form action="" method="post">
+                    <div class="item">
+                        <div>Imagem da receita</div>
+                        <div>
+                            <input 
+                                type="url"
+                                name="image"
+                                placeholder="http://">
+                        </div>
+                    </div>
+
+                    <div id="ingredients" class="item">
+                        <p>Ingredientes</p>
+                        <div class="ingredient">
+                            <input type="text" name="ingredients[]" placeholder="Ingrediente" />
+                        </div>
+                    </div>
+                    <button type="button" class="add-input" name="ingredient">Adicionar Ingrediente</button>
+        
+                    <div id="preparation" class="item">
+                        <p>Preparação</p>
+                        <div class="step">
+                            <input type="text" name="preparation[]" placeholder="Passo" />
+                        </div>
+                    </div>
+                    <button type="button" class="add-input" name="step">Aicionar novo passo</button>
+
+                    <div class="item">
+                        <div>Informações adicionais</div>
+                        <div>
+                            <textarea 
+                                name="information"
+                                value="">
+                            </textarea>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>        
+    {% endblock %}
